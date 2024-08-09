@@ -1,0 +1,1 @@
+export const imageurl="https://strapi.swagrun.io";

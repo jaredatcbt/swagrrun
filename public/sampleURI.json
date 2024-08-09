@@ -1,0 +1,9 @@
+{
+  "attributes": [
+    { "trait_type": "Animal", "value": "Cat" }
+  ],
+  "description": "A cat on Wikipedia",
+  "external_url": "https://en.wikipedia.org/wiki/Cat",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Felis_silvestris_catus_lying_on_rice_straw.jpg",
+  "name": "Rice Cat"
+}

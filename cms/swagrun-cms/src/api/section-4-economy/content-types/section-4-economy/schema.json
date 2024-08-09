@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_4_economies",
+  "info": {
+    "singularName": "section-4-economy",
+    "pluralName": "section-4-economies",
+    "displayName": "Section 4 - Economy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading1": {
+      "type": "string"
+    },
+    "leftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "point1": {
+      "type": "text",
+      "required": true
+    },
+    "point2": {
+      "type": "text",
+      "required": true
+    },
+    "point3": {
+      "type": "text",
+      "required": true
+    },
+    "point4": {
+      "type": "text",
+      "required": true
+    },
+    "point5": {
+      "type": "text"
+    },
+    "point6": {
+      "type": "text"
+    },
+    "point7": {
+      "type": "text"
+    },
+    "point8": {
+      "type": "text"
+    },
+    "point9": {
+      "type": "text"
+    }
+  }
+}

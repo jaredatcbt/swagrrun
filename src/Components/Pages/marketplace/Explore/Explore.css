@@ -1,0 +1,40 @@
+.explore-wrapper{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.explore-text1{
+    font-size: 18px;
+    color: #fff;
+}
+.explore-text2{
+    font-size: 16px;
+    color: #BCBCBC;
+    margin-top: 2px;
+}
+.explore-heading1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.explore-heading2 {
+    font-size: 30px;
+    color:#E60E61;
+    font-weight: 600;
+}
+
+.explore-adon-section{
+    padding-top: 100px;
+}
+.adon-category-btn{
+    background-color: inherit;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+}
+.adon-category-btn:focus{
+    background-color: #E60E61;
+}

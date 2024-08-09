@@ -1,0 +1,83 @@
+.nft-card{
+    width: 350px;
+    height: 440px;
+    box-shadow: inset 0px 0px 30px #FFFFFF;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.nft-card-img{
+    width: 90%;
+    border-radius: 10px;
+}
+.nft-card-title{
+    font-size: 16px;
+}
+.nft-card-description{
+    font-size: 11px;
+    color: #848484;
+}
+.nft-card-price{
+    font-size: 18px;
+    color: #E60E61;
+}
+.nft-card-bid-price{
+    font-size: 15px;
+    color: #E60E61;
+    opacity: 0.7;
+}
+.nft-card-buy-btn{
+    border: 1px solid #E60E61;
+    border-radius: 8px;
+    background-color: #E60E61;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 140px;
+    height: 35px;
+}
+.nft-card-buy-btn:hover{
+    background-color: inherit;
+}
+.nft-card-sell-btn{
+    border: 1px solid #E60E61;
+    border-radius: 8px;
+    background-color: #E60E61;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 35px;
+    width: 230px;
+}
+.nft-card-sell-btn:hover{
+    background-color: inherit;
+}
+.nft-card-bid-btn{
+    border: 1px solid #E60E61;
+    border-radius: 8px;
+    background-color: inherit;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 140px;
+    height: 35px;
+}
+.nft-card-bid-btn:hover{
+    background-color: #E60E61;
+}
+
+.listing-price-input{
+    border-radius: 10px;
+    border: 1px solid #E60E61;
+    height: 40px;
+    padding-left: 10px;
+}
+.modal-list-btn{
+    background-color: #E60E61;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+    color: #fff;
+    height: 40px;
+}
+.modal-label-text{
+    font-weight: 600;
+    color: black;
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_2_grid_carousels",
+  "info": {
+    "singularName": "section-2-grid-carousel",
+    "pluralName": "section-2-grid-carousels",
+    "displayName": "Section 2 - Grid Carousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagesCarousel": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

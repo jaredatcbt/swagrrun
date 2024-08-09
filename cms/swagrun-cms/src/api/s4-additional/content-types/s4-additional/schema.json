@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s4_additionals",
+  "info": {
+    "singularName": "s4-additional",
+    "pluralName": "s4-additionals",
+    "displayName": "Section 5 - Additional",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading1": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph1": {
+      "type": "text",
+      "required": true
+    },
+    "BoxHeading1": {
+      "type": "string",
+      "required": true
+    },
+    "BoxParagraph1": {
+      "type": "text",
+      "required": true
+    },
+    "BoxHeading2": {
+      "type": "string",
+      "required": true
+    },
+    "BoxParagraph2": {
+      "type": "text",
+      "required": true
+    },
+    "BoxHeading3": {
+      "type": "string"
+    },
+    "BoxParagraph3": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

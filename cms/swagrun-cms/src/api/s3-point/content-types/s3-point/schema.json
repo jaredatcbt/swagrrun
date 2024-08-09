@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s3_points",
+  "info": {
+    "singularName": "s3-point",
+    "pluralName": "s3-points",
+    "displayName": "Section 3 Roadmap - Box Point",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "point": {
+      "type": "string",
+      "required": true
+    },
+    "section_3_roadmap_box_heading": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::s3-heading.s3-heading",
+      "inversedBy": "section_3_roadmap_box_points"
+    }
+  }
+}

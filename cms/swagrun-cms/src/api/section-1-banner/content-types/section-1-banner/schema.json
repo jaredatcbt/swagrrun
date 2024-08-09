@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_1_banners",
+  "info": {
+    "singularName": "section-1-banner",
+    "pluralName": "section-1-banners",
+    "displayName": "Section 1 Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading1": {
+      "type": "text",
+      "required": true
+    },
+    "heading2": {
+      "type": "text",
+      "required": true
+    },
+    "paragraph1": {
+      "type": "text",
+      "required": true
+    },
+    "paragraph2": {
+      "type": "text"
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

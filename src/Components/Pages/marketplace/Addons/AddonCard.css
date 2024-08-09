@@ -1,0 +1,45 @@
+.addon-card{
+    background-color: #FFFFFF26;
+    border-radius: 10px;
+    width: 100%;
+}
+.addon-img-div{
+    height: 140px;
+}
+.addon-detail-div{
+    padding: 10px;
+    background-color: #262323;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.addon-card-title{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.addon-card-text1{
+    font-size: 12px;
+    color: #787272;
+    margin-top: -10px;
+}
+.addon-card-text2{
+    font-size: 12px;
+    color: #BCBCBC;
+}
+.addon-card-price{
+    font-size: 14px;
+    color: #E60E61;
+    margin-top: -10px;
+}
+.add-preview-btn{
+    width: 100%;
+    border: 1px solid #E60E61;
+    color: #E60E61;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: inherit;
+    height: 28px;
+}
+.add-preview-btn:hover{
+    background-color: #E60E61;
+    color: #fff;
+}

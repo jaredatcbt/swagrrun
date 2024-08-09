@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s3_headings",
+  "info": {
+    "singularName": "s3-heading",
+    "pluralName": "s3-headings",
+    "displayName": "Section 3 Roadmap - Box Heading",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BoxHeading": {
+      "type": "string",
+      "required": true
+    },
+    "section_3_roadmap_box_points": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::s3-point.s3-point",
+      "mappedBy": "section_3_roadmap_box_heading"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.addons-wrapper{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.preview-box{
+    width: 100%;
+    height: 400px;
+    background-color: #70707078;
+    border: 2px dotted #70707078;
+    border-radius: 10px;
+}
+.adon-text1{
+    font-size: 15px;
+    color: #BCBCBC;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.adon-text2{
+    font-size: 17px;
+    color: #BCBCBC;
+}
+.adon-price-text{
+    font-size: 18px;
+    color: #E60E61;
+    margin-top: -10px;
+}
+.adon-mint-btn{
+    width: 150px;
+    height: 35px;
+    border: 1px solid #E60E61;
+    background-color: #E60E61;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+}
+.adon-mint-btn:hover{
+    background-color: inherit;
+}
